@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("giphy.gif");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: rgb(64, 128, 128);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+   
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 9px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 14px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+		<form action="mic" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="panno">PAN Number:</label>
+        <input type="number" id="panno" name="panno" required>
+
+        <label for="renthome">Rent for Home:</label>
+        <input type="text" id="renthome" name="renthome" required>
+
+        <label for="rent">Rent:</label>
+        <input type="number" id="rent" name="rent" required>
+
+        <label for="grocery">Grocery:</label>
+        <input type="number" id="grocery" name="grocery" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="salaryhike">Salary Hike:</label>
+        <input type="number" id="salaryhike" name="salaryhike" required>
+
+ <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" required>
+        
+         <label for="salaryhike">fun:</label>
+        <input type="number" id="fun" name="fun" required>
+
+        <button >Submit</button>
+        
+       
+    </form>
+
+</body>
+</html>
